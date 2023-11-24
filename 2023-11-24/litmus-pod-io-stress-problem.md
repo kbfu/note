@@ -1,4 +1,4 @@
-# 记录一次Litmus io-stress使用中发现的问题
+# 记录一次Litmus pod-io-stress使用中发现的问题
 ## 背景
 最近的工作中需要大量使用Litmus来生成故障来进行注入，对系统进行破坏，总算是把Litmus配置完毕后开始一步步进行workflow的开发了。
 
