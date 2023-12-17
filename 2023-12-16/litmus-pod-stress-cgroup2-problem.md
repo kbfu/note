@@ -7,7 +7,7 @@
 ## 分析
 看到的日志里出现这么一条。
 
-`time="2023-02-17T09:16:37Z" level=fatal msg="helper pod failed, err: fail to get the cgroup manager, err: Error loading cgroup v2 manager, cgroups: invalid group path"`
+`level=fatal msg="helper pod failed, err: fail to get the cgroup manager, err: Error loading cgroup v2 manager, cgroups: invalid group path"`
 
 看样子是cgroup2被启用了？那么到qemu Linux虚拟机中再确认一下，果然诶
 ```shell
